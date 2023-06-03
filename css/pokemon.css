@@ -1,0 +1,60 @@
+.tituloprincipal{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulos{
+
+    border: dashed  black;
+    border-radius: 25px;
+ 
+    padding-top: 5px;
+    padding-bottom: 1px;
+    padding-left: 15px;
+}
+.puntuacion{
+
+    display: grid;
+    justify-content: center;
+    margin: 1px; 
+
+}
+
+.imagen{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botones{
+
+    background-color: rgba(224, 221, 217, 0.658);
+    margin-top: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-pokemon{
+
+    border: solid rgb(218, 215, 215);
+    border-radius: 5px ;
+    width: 250px;
+    margin: 5px;
+    padding: 5px;
+}
+
+#respuesta{
+
+    font-family: 'Times New Roman', Times, serif;
+  
+}

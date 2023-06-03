@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/pokemon.css">
+    <script src="../js/pokemon.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="tituloprincipal">
+
+        <h1>Juego POKEMON</h1>
+
+    </div>
+
+
+    <div class="container">
+
+        <header></header>
+        <nav></nav>
+        <section>
+
+            <div class="titulos">
+
+                <h4 class="puntuacion">Puntaje <label class="opciones" for="">0</label></h4>
+                <h4 class="puntuacion">Intentos <label class="opciones" for="">0</label></h4>
+                <h4 class="puntuacon">Selecciona el nombre de Pokemon correcto</h4>
+
+            </div>
+
+            <div id="imagen">
+
+                <img id="idImagen" src="../img/pokenegro.jfif" alt="No se pudo encontrar la imagen">
+            </div>
+
+            <div class="botones">
+
+                <button onclick="contestar('keldeo-ordinary')" class="btn-pokemon">keldeo-ordinary</button>
+                <button onclick="contestar('drilbur')" class="btn-pokemon">drilbur</button>
+                <button onclick="contestar('ninjask')" class="btn-pokemon">ninjask</button>
+                <button onclick="contestar('excadrill')" class="btn-pokemon">excadrill</button>
+
+
+                <button onclick="reiniciar('reiniciar')" class="btn-pokemon">reiniciar</button>
+
+
+
+                
+                    <label id="elemento" for=""></label>
+
+                
+
+
+
+        </section>
+        <aside></aside>
+        <footer></footer>
+
+
+    </div>
+
+
+</body>
+
+</html>
